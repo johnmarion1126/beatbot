@@ -1,0 +1,17 @@
+{
+  "name": "beatbot",
+  "version": "1.0.0",
+  "description": "A bot for discord that hosts beat battles.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.12.2"
+  }
+}
