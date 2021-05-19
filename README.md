@@ -1,5 +1,5 @@
 # SPthebeatbot
-A discord bot that hosts beat battles. Built with javascript and node.
+A discord bot that hosts beat battles. Made during the CSUF TuffyHacks hackathon. Built with javascript and node.
 
 ## How To Start
 1. Submit a sample to SP to use for the beat battles. Call "!sample" followed by a youtube link to add samples.
