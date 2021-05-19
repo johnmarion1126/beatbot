@@ -5,7 +5,7 @@ let samples = [];
 let sampleUsed;
 let randomNum;
 let targetChannel;
-let sampleBattleNum = 6;
+let sampleBattleNum = 0;
 
 module.exports = function (client, msg, args) {
     // Get target channel to post bot's messages on
