@@ -1,5 +1,4 @@
 // Displays how much time is left in current beat battle
-
 let currentState = "waiting";
 let interval;
 
@@ -26,7 +25,7 @@ module.exports = function (client, msg, args) {
     } else if (time == null) {
         msg.channel.send("No current battle. :confused:");
     } else {
-        msg.channel.send(`:alarm_clock: ${time} remainning. :alarm_clock:`);
+        msg.channel.send(`:alarm_clock: ${time} remaining. :alarm_clock:`);
     }
 }
 

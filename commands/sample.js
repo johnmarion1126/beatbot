@@ -1,6 +1,5 @@
 // Chooses a random sample to for the current beat battle
 // Users can also submit samples with "!sample <link>"
-
 let samples = [];
 let sampleUsed;
 let randomNum;
@@ -10,9 +9,9 @@ let sampleBattleNum = 0;
 module.exports = function (client, msg, args) {
     // Get target channel to post bot's messages on
     if (msg.channel.name === 'testing') {
-        targetChannel = msg.guild.channels.cache.get('825811010664267836'); // Channel id for testing
+        targetChannel = msg.guild.channels.cache.get('CHANNEL_ID'); 
     } else {
-        targetChannel = msg.guild.channels.cache.get('826765467594260510'); // Channel id for beat battle
+        targetChannel = msg.guild.channels.cache.get('CHANNEL_ID');
     }
 
     // Battle start

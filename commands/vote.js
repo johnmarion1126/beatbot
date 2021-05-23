@@ -1,5 +1,4 @@
 // Users can vote with "!vote <number>"
-
 let userScore = new Map();
 let participants = [];
 let userVoted = [];
@@ -13,9 +12,9 @@ module.exports = function (client, msg, args) {
 
     // Get target channel to post bot's messages on
     if (msg.channel.name === 'testing') {
-        targetChannel = msg.guild.channels.cache.get('825811010664267836'); // Channel id for testing
+        targetChannel = msg.guild.channels.cache.get('CHANNEL_ID');
     } else {
-        targetChannel = msg.guild.channels.cache.get('826765467594260510'); // Channel id for beat battle
+        targetChannel = msg.guild.channels.cache.get('CHANNEL_ID');
     }
 
     // Voting starts and displays submissions

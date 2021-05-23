@@ -1,5 +1,4 @@
 // Shows available commands
-
 module.exports = function (client, msg, args) {
     msg.channel.send(":clipboard: COMMAND LIST :clipboard:-----------------------------------------------");
     msg.channel.send('"!join" : Join the queue for a battle. Will start once there is enough people.');

@@ -1,6 +1,5 @@
 // Call !join to join queue for battle
 // Starts battle once enough people join
-
 const timeleft = require("./timeleft");
 const submit = require("./submit");
 const sample = require("./sample");
@@ -16,9 +15,9 @@ module.exports = function (client, msg, args) {
 
     // Get target channel to post bot's messages on
     if (msg.channel.name === 'testing') {
-        targetChannel = msg.guild.channels.cache.get('825811010664267836'); // Channel id for testing
+        targetChannel = msg.guild.channels.cache.get('CHANNEL_ID');
     } else {
-        targetChannel = msg.guild.channels.cache.get('826765333612331020'); // Channel id for news
+        targetChannel = msg.guild.channels.cache.get('CHANNEL_ID');
     }
 
     if (!numPlayers.includes(msg.author.username)) {
